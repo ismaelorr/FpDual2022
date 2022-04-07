@@ -12,8 +12,7 @@ public class Ejer9 {
 		while(numero!=5) {
 			try {
 				throw new ArrayIndexOutOfBoundsException("Error");
-				}
-			}catch(ArrayIndexOutOfBoundsException ) {
+			}catch(ArrayIndexOutOfBoundsException e) {
 				e.printStackTrace();
 				numero--;
 			}

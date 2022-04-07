@@ -12,7 +12,7 @@ public class Ejer4 {
 		}
 		
 	}
-	public void metodoEjemplo(String texto){
-			
+	public static void metodoEjemplo(String texto){
+		System.out.println(texto);
 	}
 }
